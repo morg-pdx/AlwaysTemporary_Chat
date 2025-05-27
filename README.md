@@ -32,7 +32,11 @@ Right now I don’t think Gemini, Claude, OpenRouter, etc., offer a temporary mo
 
 ## Project Structure
 
-├── src
-│   ├── popup/            # React toggles & CSS
-│   ├── core/redirect.ts  # URL-rewrite logic
-│   └── storage.ts        # chrome.storage wrappers
+## Project Structure
+
+```text
+src/
+├── popup/          # React components and CSS
+├── redirect.ts     # URL rewrite logic
+└── storage.ts      # chrome.storage wrappers
+```
